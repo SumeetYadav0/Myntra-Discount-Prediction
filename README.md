@@ -8,24 +8,24 @@ I chose this dataset because of its scale and real-world complexity. With more t
 Deciding what discount amount to offer for maximizing sales while maintaining profitability is a common challenge in e-commerce. This project aims to build a regression model that automates discount prediction based on product features.
 
 ##### 🛠️ Workflow & Key Steps
-• Extracted and loaded the dataset from a zipped file.
-• Performed an initial column analysis and removed features that added little to no value.
-• Cleaned complex unstructured data such as DiscountOffer, which contained inconsistent formats like “10% off” or “flat ₹500 off”. These were converted to numerical values in a new column DiscountPrice.
-• Created 3 new features based on domain understanding to enhance prediction power.
-• Split the data into training and testing sets to prevent data leakage.
-• Conducted EDA: Univariate, Bivariate, and Multivariate analysis.
-• Encoded categorical features appropriately.
-• Trained and evaluated 4 regression models: Random Forest, Gradient Boosting, XGBoost, and Linear Regression.
-• Identified Random Forest as the best-performing model.
+##### • Extracted and loaded the dataset from a zipped file.
+##### • Performed an initial column analysis and removed features that added little to no value.
+##### • Cleaned complex unstructured data such as DiscountOffer, which contained inconsistent formats like “10% off” or “flat ₹500 off”. These were converted to numerical values in a new column DiscountPrice.
+##### • Created 3 new features based on domain understanding to enhance prediction power.
+##### • Split the data into training and testing sets to prevent data leakage.
+##### • Conducted EDA: Univariate, Bivariate, and Multivariate analysis.
+##### • Encoded categorical features appropriately.
+##### • Trained and evaluated 4 regression models: Random Forest, Gradient Boosting, XGBoost, and Linear Regression.
+##### • Identified Random Forest as the best-performing model.
 
 ##### ⚠️ Challenges Faced
-• Due to the large size of the dataset, applying techniques like K-Fold Cross Validation and GridSearchCV was computationally expensive.
-• Even basic model training took significant time, requiring careful memory and time management.
+##### • Due to the large size of the dataset, applying techniques like K-Fold Cross Validation and GridSearchCV was computationally expensive.
+##### • Even basic model training took significant time, requiring careful memory and time management.
 
 ##### 📊 Final Results
-• Random Forest Regressor outperformed all others:
+##### • Random Forest Regressor outperformed all others:
 
-MAE: 0.12
-MSE: 0.07
-R² Score: 0.93
+##### MAE: 0.12
+##### MSE: 0.07
+##### R² Score: 0.93
 
